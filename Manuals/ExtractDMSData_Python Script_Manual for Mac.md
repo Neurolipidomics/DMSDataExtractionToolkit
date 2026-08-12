@@ -10,9 +10,9 @@
   - Enter folder "iDMS": `cd iDMS`
   - Check current active Python version on computer: `python3 --version`
  
-- From folder "DMS Data Extraction Toolkit" of github, download:
+- From main folder on github, download:
   - *requirements.txt*
-  - Either: "From .jdx"/*DMSDataExtractionToolkit_fromJDX.py* or "From .mzml"/*DMSDataExtractionToolkit_fromMZML.py*
+  - Either: *ExtractDMSData_fromJDX.py* or *ExtractDMSData_fromMZML.py*
   - *DataInfo.csv*
 
 - Place them all in folder "iDMS" just made above.
@@ -28,10 +28,11 @@ Your command line will now appear with the virtual environment name at the front
 `((py3-12-10)) Neurolipidomics@User iDMS %`
 
 - Install required packages and libraries for iDMS from *requirements.txt*
-  - On an Apple-chip MAC, type: `cat requirements.txt | xargs -n 1 pip install`
-  - On an Intel-chip MAC, type: `while read requirement; do pip install "$requirement" || true; done < requirements.txt`
+  - On an Apple-chip MAC, type: `cat requirements.txt | xargs -n 1 pip3 install`
+  - On an Intel-chip MAC, type: `while read requirement; do pip3 install "$requirement" || true; done < requirements.txt`
 
 ## Fill in *DataInfo_template.csv* with information related to your data
+- A sample DataInfo_exampleforWindows.csv is available for user's reference.
 - There are 4 columns: "Data Folder Directory", "isomer", "sphingoidBackbone", "chainLength", "unsaturationUnit"
 - Sample information associated to experimental data files is populated in these columns.
 - Note that information in column "Data Folder Directory" must contain the full path.
@@ -40,7 +41,7 @@ Your command line will now appear with the virtual environment name at the front
 
 ## Execute DMS Data Extraction Toolkit python script
 - - In the same Terminal window, execute:\
-  `python3 DMSDataExtractionToolkit_fromJDX.py` or `python3 DMSDataExtractionToolkit_fromMZML.py`
+  `python3 ExtractDMSData_fromJDX.py` or `python3 ExtractDMSData_fromMZML.py`
 - Follow the instruction in pop-up windows when prompted.
 
 > [!IMPORTANT]
