@@ -1,7 +1,3 @@
-*DMS Data Extraction Toolkit Jupyter Notebook should be run in the same virtual environment as set up for iDMS Jupyter Notebook.\
-If you have already set up virtual environment and installed required libraries and packages for iDMS, you can simply activate that virtual environment and start running the Jupyter notebook for DMS Data Extraction.
-If not, follow the steps below (similar to in iDMS Jupyter Notebook Manual) to set up virtual environment.*
-
 ## Install Python 3.12.10
 - Click [here](https://www.python.org/ftp/python/3.12.10/python-3.12.10-macos11.pkg) to download Python 3.12.10 for Mac (64x).
 - Once downloaded, install on your computer.
@@ -22,9 +18,9 @@ If not, follow the steps below (similar to in iDMS Jupyter Notebook Manual) to s
   - Enter folder "iDMS": `cd iDMS`
   - Check current active Python version on computer: `python3 --version`
  
-- From folder "DMS Data Extraction Toolkit" of github, download:
+- From main folder on github, download:
   - *requirements.txt*
-  - Either: "From .jdx"/*DMSDataExtractionToolkit_fromJDX.ipynb* or "From .mzml"/*DMSDataExtractionToolkit_fromMZML.ipynb*
+  - Either: *ExtractDMSData_fromJDX.ipynb* or *ExtractDMSData_fromMZML.ipynb*
   - *DataInfo.csv*
 
 - Place them all in folder "iDMS" just made above. 
@@ -40,12 +36,12 @@ Your command line will now appear with the virtual environment name at the front
 `((py3-12-10)) Neurolipidomics@User iDMS %`
 
 - Install required packages and libraries for iDMS from *requirements.txt*:
-  - On an Apple-chip MAC, type: `cat requirements.txt | xargs -n 1 pip install`
-  - On an Intel-chip MAC, type: `while read requirement; do pip install "$requirement" || true; done < requirements.txt`
+  - On an Apple-chip MAC, type: `cat requirements.txt | xargs -n 1 pip3 install`
+  - On an Intel-chip MAC, type: `while read requirement; do pip3 install "$requirement" || true; done < requirements.txt`
 
 - Install ipykernel, create kernel for Python 3.12.10 in Jupyter Lab:\
-  `pip install ipykernel
-  python3 -m ipykernel install --user --name=py3-12-10 --display-name="Python 3.12.10"`
+  `pip3 install ipykernel`\
+  `python3 -m ipykernel install --user --name=py3-12-10 --display-name="Python 3.12.10"`
 
 - Start Jupyter lab:\
   `jupyter lab`
@@ -53,6 +49,7 @@ Your command line will now appear with the virtual environment name at the front
 If you have multiple kernels set up for jupyter lab on your computer, you will be prompted to select the kernel to start. Make sure you select kernel "Python 3.12.10".
 
 ## Fill in *DataInfo_template.csv* with information related to your data
+- A sample DataInfo_exampleforWindows.csv is available for user's reference.
 - There are 4 columns: "Data Folder Directory", "isomer", "sphingoidBackbone", "chainLength", "unsaturationUnit"
 - Sample information associated to experimental data files is populated in these columns.
 - Note that information in column "Data Folder Directory" must contain the full path.
@@ -61,7 +58,7 @@ If you have multiple kernels set up for jupyter lab on your computer, you will b
 
 ## Execute DMS Data Extraction Toolkit Jupyter notebook
 - A web browser will open with the Jupyter Lab interface. On the left hand-side, the display will show the directory you currently are in. This directory display is similar to what you see in a regular Finder interface on your MAC. Use this to navigate to where the notebook and your data is.
-- Choose to open: *DMSDataExtractionToolkit_fromJDX.ipynb* or *DMSDataExtractionToolkit_fromMZML.ipynb*
+- Choose to open: *ExtractDMSData_fromJDX.ipynb* or *ExtractDMSData_fromMZML.ipynb*
 - Execute the notebook by running each cell, one at a time.
 - Follow the instruction in pop-up windows when prompted.
 
