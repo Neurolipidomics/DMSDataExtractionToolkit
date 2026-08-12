@@ -14,9 +14,9 @@
   - Enter folder "iDMS": `cd iDMS`
   - Check current active Python version on computer: `python --version`
 
-- From folder "DMS Data Extraction Toolkit" of github, download:
+- From main folder on github, download:
   - *requirements.txt*
-  - Either: "From .jdx"/*DMSDataExtractionToolkit_fromJDX.py* or "From .mzml"/*DMSDataExtractionToolkit_fromMZML.py*
+  - Either: *ExtractDMSData_from jdx.py* or *ExtractDMSData_from mzml.py*
   - *DataInfo.csv*
 
 - Place them all in folder "iDMS" just made above.
@@ -35,6 +35,7 @@ Your command line will now appear with the virtual environment name at the front
   `for /F "tokens=*" %i in (requirements.txt) do pip install %i`
 
 ## Fill in *DataInfo_template.csv* with information related to your data
+- A sample DataInfo_exampleforWindows.csv is available for user's reference.
 - There are 4 columns: "Data Folder Directory", "isomer", "sphingoidBackbone", "chainLength", "unsaturationUnit"
 - Sample information associated to experimental data files is populated in these columns.
 - Note that information in column "Data Folder Directory" must contain the full path.
@@ -43,7 +44,7 @@ Your command line will now appear with the virtual environment name at the front
 
 ## Execute DMS Data Extraction Toolkit Jupyter notebook
 - - In the same Terminal window, execute:\
-  `python DMSDataExtractionToolkit_fromJDX.py` or `python DMSDataExtractionToolkit_fromMZML.py`
+  `python ExtractDMSData_from jdx.py` or `python ExtractDMSData_from mzml.py`
 - Follow the instruction in pop-up windows when prompted.
 
 > [!IMPORTANT]
