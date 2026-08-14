@@ -1,11 +1,11 @@
-Experiments acquired on a SCIEX&reg; SelexION Differential Mobility Separation device (DMS) produces datafile in the format of .wiff and .wiff.scan files. 
-Without using SCIEX&reg's proprietory softwares, experimental data can't be extracted from these files readily, which will hinder further analysis. DMS Data Extraction Toolkit
+Experiments acquired on a Sciex® SelexION Differential Mobility Separation device (DMS) produces datafile in the format of .wiff and .wiff.scan files. 
+Without using Sciex®'s proprietory softwares, experimental data can't be extracted from these files readily, which will hinder further analysis. DMS Data Extraction Toolkit
 was created for the purpose of extracting DMS data in batch in an automatic manner.
 
 This tutorial will guide users through steps to convert .wiff files to .jdx (JCAMP-DX) format. JCAMP-DX format is an ASCII-based, manufacturer-independent method of storing and sharing spectroscopic data (1), (2), (3). Once converted to .jdx format, these files can then be extracted using the DMS Data Extraction Toolkit into a .csv format, ready for analyzed by iDMS [link](https://github.com/Neurolipidomics/iDMS) or by other methods.
 
 ## Tutorial
-**Requirement**: User must have already installed Analyst software version 1.6.2 or 1.6.3 from SCIEX&reg website.\
+**Requirement**: User must have already installed Analyst software version 1.6.2 or 1.6.3 from Sciex® website.\
 
 Both Sciex® Analyst software versions 1.6.2 and 1.6.3 come with supplemental scripts which can be found in the Scripts folder, often found in one’s computer 
 at C:\Program Files (or Program Files (x64) of (x86))\Analyst\Scripts. In this folder, look for the script folder “BatchScriptDriver”.
