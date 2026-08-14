@@ -2,9 +2,7 @@ Experiments acquired on a SCIEX&reg; SelexION Differential Mobility Separation d
 Without using SCIEX&reg's proprietory softwares, experimental data can't be extracted from these files readily, which will hinder further analysis. DMS Data Extraction Toolkit
 was created for the purpose of extracting DMS data in batch in an automatic manner.
 
-This tutorial will guide users through steps to convert .wiff files to .jdx (JCAMP-JDX) format. JCAMP-JDX format is a manufacturer-independent method of storing and 
-sharing spectroscopic data. Once converted to .jdx format, these files can then be extracted using the DMS Data Extraction Toolkit into a .csv format, ready for analyzed by
-iDMS [link](https://github.com/Neurolipidomics/iDMS) or by other methods.
+This tutorial will guide users through steps to convert .wiff files to .jdx (JCAMP-DX) format. JCAMP-DX format is an ASCII-based, manufacturer-independent method of storing and sharing spectroscopic data (1), (2), (3). Once converted to .jdx format, these files can then be extracted using the DMS Data Extraction Toolkit into a .csv format, ready for analyzed by iDMS [link](https://github.com/Neurolipidomics/iDMS) or by other methods.
 
 ## Tutorial
 **Requirement**: User must have already installed Analyst software version 1.6.2 or 1.6.3 from SCIEX&reg website.\
@@ -41,6 +39,12 @@ This script will allow the conversion to be carried out in batch (Figures below)
 
 >[!Note]
 >Although nothing seems to indicate that the script is working, it is indeed working in the background. New .jdx files will show up in the folder of each optimization experiment for each acquisition. You can monitor the progress of this script running by checking when all data folders now contain a .jdx file for each .wiff file. Then, close the application.
+
+##References
+(1) Gasteiger, J., B. M. P. Hendricks, Hoever P., Jochum C., and Somberg H. 1991. “JCAMP-CS: A Standard Exchange Format for Chemical Structure Information in a Computer-Readible Form.” Applied Spectroscopy 45 (1): 4–11.\
+(2) Lampen, P, H Hillig, AN Davies, and M Linscheid. 1994. “JCAMP-DX for Mass Spectrometry.” Applied Spectroscopy 48 (12): 1545–52.\
+(3) Baumbach, JI, AN Davies, P Lampen, and H Schmidt. 2001. “JCAMP-DX. A Standard Format for the Exchange of Ion Mobility Spectrometry Data - (IUPAC recommendations 2001).” Pure and Applied Chemistry 73 (11): 1765–82.
+
 
 
 
