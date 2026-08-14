@@ -1,5 +1,5 @@
-Experiments acquired on a SCIEX&reg; SelexION Differential Mobility Separation device (DMS) produces datafile in the format of .wiff and .wiff.scan files. 
-Without using SCIEX&reg's proprietory softwares, experimental data can't be extracted from these files readily, which will hinder further analysis. DMS Data Extraction Toolkit
+Experiments acquired on a Sciex® SelexION Differential Mobility Separation device (DMS) produces datafile in the format of .wiff and .wiff.scan files. 
+Without using Sciex®'s proprietory softwares, experimental data can't be extracted from these files readily, which will hinder further analysis. DMS Data Extraction Toolkit
 was created for the purpose of extracting DMS data in batch in an automatic manner.
 
 This tutorial will guide users through steps to convert .wiff files to .mzml format. MZML format is an open-sourced, XML-formatted method of storing mass spectrometry data. Once converted to .mzml format, these files can then be extracted using the DMS Data Extraction Toolkit into a .csv format, ready for analyzed by
