@@ -25,9 +25,9 @@ at C:\Program Files (or Program Files (x64) of (x86))\Analyst\Scripts. In this f
 Note that, if you performed experiment with multiple lipid isomers, you can select the parent folder which stores individual folder of each optimization experiment. 
 This script will allow the conversion to be carried out in batch (Figures below).
 
-<img width="2329" height="1245" alt="wiff to jdx 2a" src="https://github.com/user-attachments/assets/2bbd074b-eae9-44e8-b29f-9bf6e3038358" />
+<img width="80%" height="80%" alt="wiff to jdx 2a" src="https://github.com/user-attachments/assets/2bbd074b-eae9-44e8-b29f-9bf6e3038358" />
 
-<img width="1188" height="1245" alt="wiff to jdx 2b" src="https://github.com/user-attachments/assets/3150f4bb-0238-4fae-8746-05f2b171364c" />
+<img width="40%" height="40%" alt="wiff to jdx 2b" src="https://github.com/user-attachments/assets/3150f4bb-0238-4fae-8746-05f2b171364c" />
 
 6. Click “Run” to start the process.
 7. A small window will pop up prompting for “Options”. The following settings are recommended, however, change these settings should you wish to match your experiment:
@@ -37,7 +37,7 @@ This script will allow the conversion to be carried out in batch (Figures below)
   - Select “Deisotope”
   - Unselect “Only show this dialog again if the control key is down”.
 
-<img width="2159" height="1245" alt="wiff to jdx 2c" src="https://github.com/user-attachments/assets/d294625b-e00b-45db-a038-0eb4fd260565" />
+<img width="75%" height="75%" alt="wiff to jdx 2c" src="https://github.com/user-attachments/assets/d294625b-e00b-45db-a038-0eb4fd260565" />
 
 >[!Note]
 >Although nothing seems to indicate that the script is working, it is indeed working in the background. New .jdx files will show up in the folder of each optimization experiment for each acquisition. You can monitor the progress of this script running by checking when all data folders now contain a .jdx file for each .wiff file. Then, close the application.
