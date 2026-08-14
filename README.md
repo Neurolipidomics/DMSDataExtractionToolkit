@@ -1,7 +1,7 @@
 # DMS Data Extraction Toolkit
 DMS Data Extraction Toolkit is a python-based processor which reads each empirical DMS file, in the format of JCamp files (.jdx) or mzML files (.mzml) and extracts data into a csv file.
 
-DMS experiment generated on a SCIEX(R) SelexIon instrument will produce .wiff datafiles. Users must convert from .wiff files to JCamp or mzML files first before using DMS Data Extraction Toolkit. Tutorials for the conversion of wiff-to-Jcamp or wiff-to-mzML are available in folder Tutorials.
+DMS experiment generated on a SCIEX(R) SelexIon instrument will produce .wiff datafiles. Users must convert from .wiff files to JCamp (.jdx) or mzML files first before using DMS Data Extraction Toolkit. Tutorials for the conversion of wiff-to-jdx or wiff-to-mzML are available in folder Tutorials.
 
 # Setup
 DMS Data Extraction Toolkit was developed in Python 3.12.10. Manuals assisting users to set up their computers to run DMS Data Extraction Toolkit successfully are available in either of the folders "Jupyter notebooks" or "Python scripts" for whichever users choose to run DMS Data Extraction Toolkit as.
