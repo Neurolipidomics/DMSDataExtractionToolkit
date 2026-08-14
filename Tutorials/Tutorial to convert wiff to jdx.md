@@ -37,10 +37,10 @@ This script will allow the conversion to be carried out in batch (Figures below)
 
 <img width="75%" height="75%" alt="wiff to jdx 2c" src="https://github.com/user-attachments/assets/d294625b-e00b-45db-a038-0eb4fd260565" />
 
->[!Note]
->Although nothing seems to indicate that the script is working, it is indeed working in the background. New .jdx files will show up in the folder of each optimization experiment for each acquisition. You can monitor the progress of this script running by checking when all data folders now contain a .jdx file for each .wiff file. Then, close the application.
+> [!Note]
+> Although nothing seems to indicate that the script is working, it is indeed working in the background. New .jdx files will show up in the folder of each optimization experiment for each acquisition. You can monitor the progress of this script running by checking when all data folders now contain a .jdx file for each .wiff file. Then, close the application.
 
-##References
+## References
 (1) Gasteiger, J., B. M. P. Hendricks, Hoever P., Jochum C., and Somberg H. 1991. “JCAMP-CS: A Standard Exchange Format for Chemical Structure Information in a Computer-Readible Form.” Applied Spectroscopy 45 (1): 4–11.\
 (2) Lampen, P, H Hillig, AN Davies, and M Linscheid. 1994. “JCAMP-DX for Mass Spectrometry.” Applied Spectroscopy 48 (12): 1545–52.\
 (3) Baumbach, JI, AN Davies, P Lampen, and H Schmidt. 2001. “JCAMP-DX. A Standard Format for the Exchange of Ion Mobility Spectrometry Data - (IUPAC recommendations 2001).” Pure and Applied Chemistry 73 (11): 1765–82.
