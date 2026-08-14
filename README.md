@@ -7,9 +7,7 @@ DMS experiment generated on a SCIEX(R) SelexIon instrument will produce .wiff da
 DMS Data Extraction Toolkit was developed in Python 3.12.10. Manuals assisting users to set up their computers to run DMS Data Extraction Toolkit successfully are available in either of the folders "Jupyter notebooks" or "Python scripts" for whichever users choose to run DMS Data Extraction Toolkit as.
 
 # DMS Data Extraction Toolkit App
-DMS Data Extraction Toolkit App is a desktop application in addition to the available Python script and Jupyter notebook and is currently available only for Mac computers with Apple Silicon chip. A version of iDMS Desktop for Windows operating systems is under development.
-
-Coming soon!
+DMS Data Extraction Toolkit App is a desktop application in addition to the available Python script and Jupyter notebook and is available only for Mac computers with either Intel or Apple Silicon chips. This app is available at [link](https://www.neurolipidomics.com/dms_extract.html).
 
 # Bug Report:
 For bug report, please contact Dr. Steffany Bennett at SteffanyAnn.Bennett@uottawa.ca and Thao Nguyen-Tran at tnguy32@uottawa.ca. Please also send an example dataset which did not run successfully on iDMS.
