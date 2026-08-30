@@ -4,6 +4,13 @@ Field asymmetric (differential) ion mobility spectrometry (FAIMS/DMS) data are g
 # Setup
 DMS Data Extraction Toolkit was developed in Python 3.12.10 and provided as Jupyter notebooks and Python scripts. Manuals assisting users to set up their computers to run DMS Data Extraction Toolkit successfully are available in either folder.
 
+# Naming convention for input files
+Datafile input for DMS Data Extraction Toolkit must be in this format for a successful conversion.
+
+[text]_[SV value]_[text].mzml (or .jdx)
+
+For example: SV_2000_Pos.mzml
+
 # Bug Report:
 For bug report, please contact Dr. Steffany Bennett at SteffanyAnn.Bennett@uottawa.ca and Thao Nguyen-Tran at tnguy32@uottawa.ca. Please also send an example .jdx or .mzML file that did not run successfully through the DMS Data Extraction Toolkit.
 
