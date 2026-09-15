@@ -17,4 +17,4 @@ For bug report, lpease contact Dr. Steffany Bennettand Thao Nguyen-Tran at ldomi
 # Citing
 Nguyen-Tran, T., Shi, XX., Hashimoto-Roth, E., Organ, M.G., Lavallée-Adam, M., Perkins, T. J. & Bennett, S.A.L. (2026). Intelligent differential ion mobility spectrometry (iDMS) for lipidomics: A machine learning algorithm that predicts the optimal space -resolved ion mobility parameters for isomeric glycosphingolipids. [bioRxiv:2026.2008.2026.747394](https://www.biorxiv.org/content/10.64898/2026.08.26.747394v1)
 
-This repository is linked to [zenodo](https://zenodo.org/records/22214408), where you can find a DOI for the version you are using.
+This repository is linked to [zenodo](https://zenodo.org/records/22777403), where you can find a DOI for the version you are using.
